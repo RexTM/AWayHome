@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_Scenes/CarlScene.unity
+    guid: 587a9d58328a8704a9f0a914773c8cf3
   m_configObjects: {}
