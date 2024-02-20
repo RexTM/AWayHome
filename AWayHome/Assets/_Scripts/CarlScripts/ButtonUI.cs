@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class ButtonUI : MonoBehaviour
 {
     [SerializeField] private string newGameLevel = "CarlScene";
-    public void NewGameButton()
+    [SerializeField] private string buttonName;
+    public void OnButtonClick()
     {
         SceneManager.LoadScene(newGameLevel);
+        Debug.Log($"Button '{buttonName}' clicked!");
     }
 }

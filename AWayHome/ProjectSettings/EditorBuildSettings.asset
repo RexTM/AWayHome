@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/CarlScene 2.unity
     guid: f8fba8762719d2f4d8d698c75f165759
+  - enabled: 1
+    path: Assets/_Scenes/elmerScene.unity
+    guid: 35f6b0251b239a44cb1b0b9403df1ea5
+  - enabled: 1
+    path: Assets/_Scenes/GameOver.unity
+    guid: 5eaee40d8378c994d89b75232ac3b432
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu.unity
+    guid: e1db7dd87c5497647bc79fb49813780a
   m_configObjects: {}
