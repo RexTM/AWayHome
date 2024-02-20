@@ -11,5 +11,6 @@ public class ButtonUI : MonoBehaviour
     {
         SceneManager.LoadScene(newGameLevel);
         Debug.Log($"Button '{buttonName}' clicked!");
+        
     }
 }
