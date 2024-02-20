@@ -33,7 +33,7 @@ public class Grid : MonoBehaviour
 
     private Dictionary<PieceType, GameObject> piecePrefabDict;
 
-    private GameObject[,] pieces;
+    private GamePiece[,] pieces;
 
     // Start is called before the first frame update
     void Start()
@@ -59,14 +59,22 @@ public class Grid : MonoBehaviour
             }
         }
 
-        pieces = new GameObject[width, height];
+        pieces = new GamePiece[width, height];
         for (int x = 0; x < width; x++)
         {
             for(int y = 0; y < height; y++) 
             {
-                pieces[x,y] = (GameObject)Instantiate(piecePrefabDict[PieceType.NORMAL], GetWorldPosition(x, y, 1), Quaternion.identity);
-                pieces[x,y].name = "Piece(" + x + "," + y + ")";
-                pieces[x,y].transform.parent = transform;
+                GameObject newPiece = (GameObject)Instantiate(piecePrefabDict[PieceType.NORMAL], Vector2.zero, Quaternion.identity);
+                newPiece.name = "Piece(" + x + "," + y + ")";
+                newPiece.transform.parent = transform;
+
+                pieces[x, y] = newPiece.GetComponent<GamePiece>();
+                pieces[x, y].Init(x, y, this, PieceType.NORMAL);
+
+                if(pieces[x,y].IsMovable())
+                {
+                    pieces[x,y].MovableComponent.Move(x, y);
+                }
             }
         }
 
@@ -77,13 +85,7 @@ public class Grid : MonoBehaviour
         grid.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    Vector3 GetWorldPosition(int x, int y, int z)
+    public Vector3 GetWorldPosition(int x, int y, int z)
     {
         return new Vector3(transform.position.x - width / 2.0f + x, transform.position.y + height / 2.0f - y);
     }
