@@ -609,7 +609,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1124365651}
   m_Father: {fileID: 1855926047}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -985,12 +986,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124365647}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.39, y: 8.71, z: 90.003}
-  m_LocalScale: {x: 0.3950223, y: 0.3950223, z: 0.3950223}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 70.04599, y: -14.905991, z: 0.1541153}
+  m_LocalScale: {x: 20.304148, y: 20.304148, z: 20.304148}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 686042180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1174184778
 GameObject:
@@ -1347,6 +1348,11 @@ MonoBehaviour:
   height: 7
   tilePrefab: {fileID: 3094896986844121567, guid: e36e471fbd649ae4bacbeed18efbd0aa,
     type: 3}
+  dots:
+  - {fileID: 2010657452296314921, guid: 90e812c17ec349442b07a483fc6ff250, type: 3}
+  - {fileID: 4402032611560656759, guid: 8bfd83e6e97ea6a4a85ffac79063356f, type: 3}
+  - {fileID: 6671656430291917546, guid: e19d965673f950149844db4faf666d15, type: 3}
+  - {fileID: 256166898189933446, guid: 44bfa5876b0ff2b489ed704556100039, type: 3}
 --- !u!4 &1907935970
 Transform:
   m_ObjectHideFlags: 0
@@ -1356,7 +1362,7 @@ Transform:
   m_GameObject: {fileID: 1907935968}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3813229, y: 5.5136185, z: 90}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1447,6 +1453,5 @@ SceneRoots:
   - {fileID: 1855926047}
   - {fileID: 245578707}
   - {fileID: 1046865383}
-  - {fileID: 1124365651}
   - {fileID: 1825762703}
   - {fileID: 1907935970}
