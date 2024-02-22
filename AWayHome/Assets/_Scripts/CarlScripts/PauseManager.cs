@@ -6,12 +6,16 @@ using UnityEngine.SceneManagement;
 public class PauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
-
     private bool isPaused = false;
+    private string previousScene; // Variable to store the previous scene name
+
+    private void Start()
+    {
+        previousScene = SceneManager.GetActiveScene().name;
+    }
 
     private void Update()
     {
-        //Checks for user input to toggle pause
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             TogglePause();
@@ -25,35 +29,40 @@ public class PauseManager : MonoBehaviour
         if (isPaused)
         {
             Time.timeScale = 0;
-            //ShowPauseMenu();
+            ShowPauseMenu();
         }
         else
         {
             Time.timeScale = 1;
-            //HidePauseMenu();
+            HidePauseMenu();
         }
+    }
 
-        //private void ShowPauseMenu()
+    private void ShowPauseMenu()
+    {
+        if (pauseMenu != null)
         {
-            if (pauseMenu != null)
-            {
-                pauseMenu.SetActive(true);
-                
-            }
+            pauseMenu.SetActive(true);
         }
+    }
 
-        //private void HidePauseMenu()
+    private void HidePauseMenu()
+    {
+        if (pauseMenu != null)
         {
-            if (pauseMenu != null)
-            {
-                pauseMenu.SetActive(false);
-                
-            }
+            pauseMenu.SetActive(false);
         }
+    }
 
-        //public void LoadScene(string sceneName)
-        {
-            //SceneManager.LoadScene(sceneName);
-        }
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1;
+        HidePauseMenu();
+        SceneManager.LoadScene(previousScene);
     }
 }
