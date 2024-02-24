@@ -6,16 +6,20 @@ using TMPro;
 
 public class TimerController : MonoBehaviour
 {
+    [Header("Change Timer Value Here")]
+    public float maxTime = 5.0f;
 
     public GameObject TimeUp;
     public Image timerLinearImage;
     public float timeRemaining;
-    public float maxTime = 5.0f;
     public TextMeshProUGUI timerText;
+
+    private Board board;
 
     // Start is called before the first frame update
     void Start()
     {
+        board = FindObjectOfType<Board>();
         timeRemaining = maxTime;
     }
 
@@ -30,6 +34,7 @@ public class TimerController : MonoBehaviour
         }
         else
         {
+            board.currentState = GameState.WAIT;
             TimeUp.SetActive(true);
         }
     }

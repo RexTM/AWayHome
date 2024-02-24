@@ -25,7 +25,8 @@ public class Dots : MonoBehaviour
     public float swipeAngle = 0;
     public float swipeResist = 1f;
 
-    public PlayerData playerData;
+    private PlayerData playerData;
+
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +44,7 @@ public class Dots : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //FindMatches();
+        findMatches.FindAllMatches();
 
         targetX = column;
         targetY = row;

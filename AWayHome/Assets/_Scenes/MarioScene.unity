@@ -913,10 +913,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d61ba887a19be4b834d0409d445969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxTime: 60
   TimeUp: {fileID: 1668157344}
   timerLinearImage: {fileID: 881910179}
   timeRemaining: 0
-  maxTime: 5
   timerText: {fileID: 572715854}
 --- !u!4 &1046865383
 Transform:
@@ -1399,6 +1399,7 @@ MonoBehaviour:
   - {fileID: 4402032611560656759, guid: 8bfd83e6e97ea6a4a85ffac79063356f, type: 3}
   - {fileID: 6671656430291917546, guid: e19d965673f950149844db4faf666d15, type: 3}
   - {fileID: 256166898189933446, guid: 44bfa5876b0ff2b489ed704556100039, type: 3}
+  - {fileID: 2010657452296314921, guid: 2811a093f9542cd44a20def57dc5f08b, type: 3}
 --- !u!4 &1907935970
 Transform:
   m_ObjectHideFlags: 0

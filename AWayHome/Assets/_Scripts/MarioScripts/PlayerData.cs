@@ -5,6 +5,7 @@ using TMPro;
 
 public class PlayerData : MonoBehaviour
 {
+    [Header("Player Data")]
     public static int wishBones = 0;
 
 

@@ -35,25 +35,32 @@ public class Board : MonoBehaviour
 
     private void Setup()
     {
+        //Generating 2D array
         for(int i = 0; i < width; i++)
         {
             for (int j = 0; j < height; j++)
             {
+                //Generating the Location for Background and Pieces
                 Vector3 tempPosition = new Vector3(i, j + offSet, 1f);
                 Vector3 tilePosition = new Vector3(i, j, 1f);
+
+                //Instantiating the background tiles
                 GameObject backgroundTile = Instantiate(tilePrefab, tilePosition, Quaternion.identity);
                 backgroundTile.transform.parent = this.transform;
                 backgroundTile.name = "(" + i + ", " + j + ")";
                 int dotToUse = Random.Range(0, dots.Length);
                 int maxIterations = 0;
 
+                //Making sure the generated peices dont match
                 while(MatchesAt(i,j, dots[dotToUse]) && maxIterations < 100)
                 {
                     dotToUse = Random.Range(0, dots.Length);
+                    //Failsafe in case of infinite loop
                     maxIterations++;
                 }
                 maxIterations = 0;
 
+                //Instantiating the pieces
                 GameObject dot = Instantiate(dots[dotToUse], tempPosition, Quaternion.identity);
                 dot.GetComponent<Dots>().row = j;
                 dot.GetComponent<Dots>().column = i;
@@ -102,7 +109,10 @@ public class Board : MonoBehaviour
     {
         if (allDots[column, row].GetComponent<Dots>().isMatched)
         {
+            //Adding wishbones when there is a merge
             PlayerData.wishBones = PlayerData.wishBones+1;
+
+            //Destroying Pieces that have matched. 
             findMatches.currentMatches.Remove(allDots[column, row]);
             Destroy(allDots[column, row]);
             allDots[column, row] = null;

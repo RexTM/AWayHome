@@ -20,7 +20,7 @@ public class FindMatches : MonoBehaviour
     
     private IEnumerator FindAllMatchesCo()
     {
-        yield return new WaitForSeconds(.2f);
+        yield return new WaitForSeconds(1f);
         for (int i = 0; i < board.width; i++)
         {
             for (int j = 0; j < board.height; j++)
@@ -54,7 +54,7 @@ public class FindMatches : MonoBehaviour
                             }
                         }
                     }
-                    if (j > 0 && j < board.width - 1)
+                    if (j > 0 && j < board.height - 1)
                     {
                         GameObject upDot = board.allDots[i, j + 1];
                         GameObject downDot = board.allDots[i , j - 1];
