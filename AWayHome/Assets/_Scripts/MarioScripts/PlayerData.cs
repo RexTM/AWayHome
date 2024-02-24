@@ -5,7 +5,7 @@ using TMPro;
 
 public class PlayerData : MonoBehaviour
 {
-    public int wishBones = 0;
+    public static int wishBones = 0;
 
 
     // Start is called before the first frame update
