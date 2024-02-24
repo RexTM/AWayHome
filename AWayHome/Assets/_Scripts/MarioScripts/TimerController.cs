@@ -30,7 +30,7 @@ public class TimerController : MonoBehaviour
         {
             timeRemaining -= Time.deltaTime;
             timerLinearImage.fillAmount = timeRemaining / maxTime;
-            timerText.text = timeRemaining.ToString("0.00");
+            timerText.text = timeRemaining.ToString("0");
         }
         else
         {

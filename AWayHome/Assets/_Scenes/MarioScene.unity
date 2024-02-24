@@ -1238,6 +1238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 807fea010cb139444b2fc95736240653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 10
+  y: 35
   WishBones: {fileID: 686042181}
 --- !u!4 &1825762703
 Transform:

@@ -6,6 +6,8 @@ using TMPro;
 
 public class UIManager : PlayerData
 {
+    public int x;
+    public int y;
     UIManager uiManager;
     public TMP_Text WishBones;
 
@@ -23,12 +25,14 @@ public class UIManager : PlayerData
 
     private void OnGUI()
     {
+        /*
         if(GUI.Button(new Rect(150, 200, 100, 50), "Add WishBone"))
         {
             wishBones += 2;
         }
+        */
 
-        if(GUI.Button(new Rect(10, 200, 100, 50), "Buy Choice"))
+        if(GUI.Button(new Rect(x, y, 100, 50), "Buy Choice"))
         {
             if(wishBones >= 5)
             {
