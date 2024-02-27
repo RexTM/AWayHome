@@ -10,6 +10,8 @@ TagManager:
   - Yellow
   - Red
   - Purple
+  - BubbleScene
+  - BadChoice
   layers:
   - Default
   - TransparentFX
