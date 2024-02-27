@@ -6,12 +6,18 @@ using UnityEngine.SceneManagement;
 public class PauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
-    private bool isPaused = false;
+    public GameObject PauseButton;
+    private GameObject pauseMenuInstance;
+
+    //private bool isPaused = false;
     private string previousScene; // Variable to store the previous scene name
 
     private void Start()
     {
-        previousScene = SceneManager.GetActiveScene().name;
+         pauseMenuInstance = Instantiate(PauseButton);
+            pauseMenuInstance.SetActive(false);
+            previousScene = SceneManager.GetActiveScene().name;
+        
     }
 
     private void Update()
@@ -24,18 +30,13 @@ public class PauseManager : MonoBehaviour
 
     public void TogglePause()
     {
-        isPaused = !isPaused;
+        SceneManager.LoadScene("pauseMenu");
 
-        if (isPaused)
+        if(pauseMenuInstance != null)
         {
-            Time.timeScale = 0;
-            ShowPauseMenu();
+            pauseMenuInstance.SetActive(!pauseMenuInstance.activeSelf);
         }
-        else
-        {
-            Time.timeScale = 1;
-            HidePauseMenu();
-        }
+      
     }
 
     private void ShowPauseMenu()
@@ -54,9 +55,9 @@ public class PauseManager : MonoBehaviour
         }
     }
 
-    public void LoadScene(string sceneName)
+    public void LoadScene(string pauseMenu)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(pauseMenu);
     }
 
     public void ResumeGame()
