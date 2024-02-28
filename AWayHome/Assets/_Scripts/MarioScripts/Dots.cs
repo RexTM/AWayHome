@@ -1,9 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using TreeEditor;
 using UnityEngine;
-using UnityEngine.InputSystem.iOS;
 
 public class Dots : MonoBehaviour
 {
