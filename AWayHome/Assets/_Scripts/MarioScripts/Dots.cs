@@ -42,6 +42,22 @@ public class Dots : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            switch (touch.phase)
+            {
+                case TouchPhase.Began:
+                    OnTouchBegan(touch.position);
+                    break;
+                case TouchPhase.Ended:
+                    OnTouchEnded(touch.position);
+                    break;
+            }
+        }
+
+
         findMatches.FindAllMatches();
 
         targetX = column;
@@ -81,6 +97,7 @@ public class Dots : MonoBehaviour
 
     }
 
+
     public IEnumerator CheckMoveCo()
     {
         yield return new WaitForSeconds(.5f);
@@ -102,7 +119,7 @@ public class Dots : MonoBehaviour
             otherDot = null;
         }
     }
-
+    /*
     private void OnMouseDown()
     {
         if (board.currentState == GameState.MOVE)
@@ -116,6 +133,24 @@ public class Dots : MonoBehaviour
         if (board.currentState == GameState.MOVE)
         {
             finalTouchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            CalculateAngle();
+        }
+    }
+    */
+
+    private void OnTouchBegan(Vector2 touchPosition)
+    {
+        if (board.currentState == GameState.MOVE)
+        {
+            firstTouchPosition = Camera.main.ScreenToWorldPoint(touchPosition);
+        }
+    }
+
+    private void OnTouchEnded(Vector2 touchPosition)
+    {
+        if (board.currentState == GameState.MOVE)
+        {
+            finalTouchPosition = Camera.main.ScreenToWorldPoint(touchPosition);
             CalculateAngle();
         }
     }
