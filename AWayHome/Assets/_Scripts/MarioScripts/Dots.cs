@@ -42,6 +42,7 @@ public class Dots : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -56,7 +57,7 @@ public class Dots : MonoBehaviour
                     break;
             }
         }
-
+        */
 
         findMatches.FindAllMatches();
 
@@ -119,7 +120,7 @@ public class Dots : MonoBehaviour
             otherDot = null;
         }
     }
-    /*
+    
     private void OnMouseDown()
     {
         if (board.currentState == GameState.MOVE)
@@ -136,8 +137,9 @@ public class Dots : MonoBehaviour
             CalculateAngle();
         }
     }
-    */
+    
 
+    /*
     private void OnTouchBegan(Vector2 touchPosition)
     {
         if (board.currentState == GameState.MOVE)
@@ -154,6 +156,7 @@ public class Dots : MonoBehaviour
             CalculateAngle();
         }
     }
+    */
 
     void CalculateAngle()
     {
