@@ -23,6 +23,7 @@ public class UIManager : PlayerData
         WishBones.text = "Wish Bones: " + wishBones;
     }
 
+    /*
     private void OnGUI()
     {
         /*
@@ -32,6 +33,7 @@ public class UIManager : PlayerData
         }
         */
 
+    /*
         if(GUI.Button(new Rect(x, y, 100, 50), "Buy Choice"))
         {
             if(wishBones >= 5)
@@ -44,4 +46,5 @@ public class UIManager : PlayerData
             }
         }
     }
+    */
 }

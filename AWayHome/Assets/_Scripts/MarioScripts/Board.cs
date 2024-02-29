@@ -41,8 +41,8 @@ public class Board : MonoBehaviour
             for (int j = 0; j < height; j++)
             {
                 //Generating the Location for Background and Pieces
-                Vector3 tempPosition = new Vector3(i, j + offSet, 1f);
-                Vector3 tilePosition = new Vector3(i, j, 1f);
+                Vector3 tempPosition = new Vector3(i, j + offSet, 0f);
+                Vector3 tilePosition = new Vector3(i, j, 0f);
 
                 //Instantiating the background tiles
                 GameObject backgroundTile = Instantiate(tilePrefab, tilePosition, Quaternion.identity);

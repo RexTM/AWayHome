@@ -9,6 +9,7 @@ public class TimerController : MonoBehaviour
     [Header("Change Timer Value Here")]
     public float maxTime = 5.0f;
 
+    public GameObject restartButton;
     public GameObject TimeUp;
     public Image timerLinearImage;
     public float timeRemaining;
@@ -36,6 +37,7 @@ public class TimerController : MonoBehaviour
         {
             board.currentState = GameState.WAIT;
             TimeUp.SetActive(true);
+            restartButton.SetActive(true);
         }
     }
 }
