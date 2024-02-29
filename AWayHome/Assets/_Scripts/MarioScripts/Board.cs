@@ -17,7 +17,7 @@ public class Board : MonoBehaviour
     [Header("Location Properties")]
     public int x;
     public int y;
-    public float scale;
+    public float scale = 1f;
 
     public GameState currentState = GameState.MOVE;
     public int width;
