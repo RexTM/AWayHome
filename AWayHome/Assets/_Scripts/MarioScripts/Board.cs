@@ -14,10 +14,7 @@ public enum GameState
 
 public class Board : MonoBehaviour
 {
-    [Header("Location Properties")]
-    public int x;
-    public int y;
-    public float scale = 1f;
+   
 
     public GameState currentState = GameState.MOVE;
     public int width;
@@ -31,11 +28,7 @@ public class Board : MonoBehaviour
     private PlayerData playerData;
 
     private void Start()
-    {
-        //size
-        this.transform.position = new Vector3(x, y, 0);
-        this.transform.localScale = new Vector3(scale, scale, scale);
-
+    { 
 
         findMatches = FindObjectOfType<FindMatches>();
         allTiles = new BackgroundTile[width, height];
