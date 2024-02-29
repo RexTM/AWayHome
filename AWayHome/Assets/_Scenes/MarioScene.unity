@@ -690,7 +690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 41, y: -1}
+  m_AnchoredPosition: {x: 41, y: -92}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &686042181
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d61ba887a19be4b834d0409d445969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 2
+  maxTime: 60
   restartButton: {fileID: 1570039120}
   TimeUp: {fileID: 1668157344}
   timerLinearImage: {fileID: 881910179}
@@ -1857,6 +1857,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9139708765accd4f92107fd5b5e69d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 0
+  y: 0
+  scale: 0
   currentState: 1
   width: 5
   height: 7
@@ -1972,5 +1975,5 @@ SceneRoots:
   - {fileID: 1825762703}
   - {fileID: 1907935970}
   - {fileID: 981995789}
-  - {fileID: 745836874}
   - {fileID: 1842395321}
+  - {fileID: 745836874}
