@@ -63,10 +63,10 @@ public class Dots : MonoBehaviour
 
         targetX = column;
         targetY = row;
-        if (Mathf.Abs(targetX - transform.position.x) > 0.08f)
+        if (Mathf.Abs(targetX - transform.position.x) > 0.2f)
         {
             tempPosition = new Vector2(targetX, transform.position.y);
-            transform.position = Vector2.Lerp(transform.position, tempPosition, .08f);
+            transform.position = Vector2.Lerp(transform.position, tempPosition, 0.2f);
             if (board.allDots[column,row] != this.gameObject)
             {
                 board.allDots[column, row] = this.gameObject;
@@ -79,10 +79,10 @@ public class Dots : MonoBehaviour
             transform.position = tempPosition;
         }
 
-        if (Mathf.Abs(targetY - transform.position.y) > 0.08f)
+        if (Mathf.Abs(targetY - transform.position.y) > 0.2f)
         {
             tempPosition = new Vector2(transform.position.x, targetY);
-            transform.position = Vector2.Lerp(transform.position, tempPosition, 0.08f);
+            transform.position = Vector2.Lerp(transform.position, tempPosition, 0.2f);
             if (board.allDots[column, row] != this.gameObject)
             {
                 board.allDots[column, row] = this.gameObject;
