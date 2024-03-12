@@ -12,11 +12,26 @@ EditorBuildSettings:
     path: Assets/_Scenes/MainMenu.unity
     guid: e1db7dd87c5497647bc79fb49813780a
   - enabled: 1
-    path: Assets/_Scenes/CarlScene.unity
+    path: Assets/_Scenes/Chapter1/ChapterOne.unity
+    guid: a491e17c16211414e97227e42b078f30
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/CarlScene.unity
     guid: 587a9d58328a8704a9f0a914773c8cf3
   - enabled: 1
-    path: Assets/_Scenes/CarlScene 2.unity
+    path: Assets/_Scenes/Chapter1/CarlScene 2.unity
     guid: f8fba8762719d2f4d8d698c75f165759
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_3.unity
+    guid: aad6104e210eeba4882adb53c7b5c7e4
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_4.unity
+    guid: 2b0ecaa3d9870d541b97a5aff55c5a28
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_2_1.unity
+    guid: b84fea15b6932cd45b48997d08982d0d
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_2_2.unity
+    guid: 6644eecc996a96948a9ff01e3475eaab
   - enabled: 1
     path: Assets/_Scenes/elmerScene.unity
     guid: 35f6b0251b239a44cb1b0b9403df1ea5
