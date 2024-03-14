@@ -33,6 +33,24 @@ EditorBuildSettings:
     path: Assets/_Scenes/Chapter1/Chapter1_2_2.unity
     guid: 6644eecc996a96948a9ff01e3475eaab
   - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_Bite.unity
+    guid: 0c8299f49799a4646ac023b2d67c368f
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_Pull.unity
+    guid: b0b8618ddd9245f459477cbc8fc4fbdf
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_OldLady.unity
+    guid: 66ba6d8a83f6b8a48b6a98405bb645d1
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_TheVendor.unity
+    guid: 1d4d3dfd6c476c74e94f9c9181012ceb
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_MindBiz.unity
+    guid: c9d8dd3ad307f9c4593cd6e0028156dd
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/Chapter1_Leash.unity
+    guid: 3be8130bb3c427243adc4e0e3040d89a
+  - enabled: 1
     path: Assets/_Scenes/elmerScene.unity
     guid: 35f6b0251b239a44cb1b0b9403df1ea5
   - enabled: 1
