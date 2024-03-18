@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Security.Cryptography;
 
 public class TimerController : MonoBehaviour
 {
-    [Header("Change Timer Value Here")]
-    public float maxTime = 5.0f;
+    [Header("Difficulty Level")]
+    [Range(0, 3)]
+    public int difficulty = 0;
+
+    [SerializeField]
+    public static float maxTime = 60f;
 
     public GameObject restartButton;
     public GameObject TimeUp;
@@ -17,16 +22,21 @@ public class TimerController : MonoBehaviour
 
     private Board board;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
         board = FindObjectOfType<Board>();
+        DifficultyLevel();
         timeRemaining = maxTime;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if(timeRemaining > 0) 
         {
             timeRemaining -= Time.deltaTime;
@@ -40,4 +50,27 @@ public class TimerController : MonoBehaviour
             restartButton.SetActive(true);
         }
     }
+
+    public void DifficultyLevel()
+    {
+        switch (difficulty)
+        {
+            case 0:
+                maxTime = 60f;
+                break;
+            case 1:
+                maxTime = 50f;
+                break;
+            case 2:
+                maxTime = 40f;
+                break;
+            case 3:
+                maxTime = 30f;
+                break;
+            default:
+                break;
+        }
+    }
 }
+
+

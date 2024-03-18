@@ -983,6 +983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78ef7816283a49e4c80cd120740fdef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceSceneSelection: 0
+  forcedScene: 0
 --- !u!4 &712423661
 Transform:
   m_ObjectHideFlags: 0
@@ -1539,7 +1541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d61ba887a19be4b834d0409d445969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 60
+  difficulty: 3
   restartButton: {fileID: 1570039120}
   TimeUp: {fileID: 1668157344}
   timerLinearImage: {fileID: 881910179}
