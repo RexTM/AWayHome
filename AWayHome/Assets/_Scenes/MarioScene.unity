@@ -983,10 +983,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78ef7816283a49e4c80cd120740fdef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene:
-    m_Handle: 0
-  miniGameScene:
-    m_Handle: 0
 --- !u!4 &712423661
 Transform:
   m_ObjectHideFlags: 0
@@ -2284,7 +2280,7 @@ GameObject:
   - component: {fileID: 1570039123}
   - component: {fileID: 1570039122}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: Resume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2354,9 +2350,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1842395320}
-        m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
-        m_MethodName: OnButtonClick
+      - m_Target: {fileID: 712423660}
+        m_TargetAssemblyTypeName: ManageScene, Assembly-CSharp
+        m_MethodName: returnToStory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2540,7 +2536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: Resume Story
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
