@@ -184,6 +184,7 @@ public class Dots : MonoBehaviour
             previousColumn = column;
             otherDot.GetComponent<Dots>().column -= 1;
             column += 1;
+            Handheld.Vibrate();
         }
         else if (swipeAngle > 45 && swipeAngle <= 135 && row < board.height-1)
         {
@@ -194,6 +195,7 @@ public class Dots : MonoBehaviour
             previousColumn = column;
             otherDot.GetComponent<Dots>().row -= 1;
             row += 1;
+            Handheld.Vibrate();
         }
         else if ((swipeAngle > 135 || swipeAngle <= -135 ) && column > 0)
         {
@@ -204,6 +206,7 @@ public class Dots : MonoBehaviour
             previousColumn = column;
             otherDot.GetComponent<Dots>().column += 1;
             column -= 1;
+            Handheld.Vibrate();
         }
         else if (swipeAngle < -45 && swipeAngle >= -135 && row > 0)
         {
@@ -214,6 +217,7 @@ public class Dots : MonoBehaviour
             previousColumn = column;
             otherDot.GetComponent<Dots>().row += 1;
             row -= 1;
+            Handheld.Vibrate();
         }
         StartCoroutine(CheckMoveCo());
     }

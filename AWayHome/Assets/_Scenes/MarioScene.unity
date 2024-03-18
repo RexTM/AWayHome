@@ -1541,7 +1541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d61ba887a19be4b834d0409d445969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  difficulty: 3
+  difficulty: 0
   restartButton: {fileID: 1570039120}
   TimeUp: {fileID: 1668157344}
   timerLinearImage: {fileID: 881910179}
