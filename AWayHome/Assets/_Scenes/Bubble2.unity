@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18328777, g: 0.22702356, b: 0.29526386, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -549,13 +549,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.20041518, y: -0, z: -0, w: 0.97971106}
+  m_LocalPosition: {x: 0, y: 3, z: -8.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.122, y: 0, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2998,14 +2998,14 @@ MonoBehaviour:
   width: 5
   height: 7
   offSet: 20
-  tilePrefab: {fileID: 3094896986844121567, guid: e36e471fbd649ae4bacbeed18efbd0aa,
+  tilePrefab: {fileID: 919132149155446097, guid: 36abca8ee03fe4542a1ad657bac2313f,
     type: 3}
   dots:
-  - {fileID: 2010657452296314921, guid: 90e812c17ec349442b07a483fc6ff250, type: 3}
-  - {fileID: 4402032611560656759, guid: 8bfd83e6e97ea6a4a85ffac79063356f, type: 3}
-  - {fileID: 6671656430291917546, guid: e19d965673f950149844db4faf666d15, type: 3}
-  - {fileID: 256166898189933446, guid: 44bfa5876b0ff2b489ed704556100039, type: 3}
-  - {fileID: 2010657452296314921, guid: 2811a093f9542cd44a20def57dc5f08b, type: 3}
+  - {fileID: 3663148862085090213, guid: f074b9c33e017a74e886aaba2b720cd1, type: 3}
+  - {fileID: 7079657589547172624, guid: 2cec7ec4845b4b14687a889876cb59fa, type: 3}
+  - {fileID: 5924837520500921877, guid: 2a29569d0e1eb384f96bd83a430971ba, type: 3}
+  - {fileID: 1619407701181610741, guid: d131470c7b42dd546b5df4e7397b9104, type: 3}
+  - {fileID: 1804157906604429601, guid: 51a4873de962ea54880bf3365995f064, type: 3}
 --- !u!4 &1907935970
 Transform:
   m_ObjectHideFlags: 0
