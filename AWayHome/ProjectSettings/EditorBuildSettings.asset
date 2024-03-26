@@ -60,7 +60,7 @@ EditorBuildSettings:
     path: Assets/_Scenes/GameOver.unity
     guid: 5eaee40d8378c994d89b75232ac3b432
   - enabled: 1
-    path: Assets/_Scenes/PauseMenu.unity
+    path: Assets/_Scenes/pauseMenu.unity
     guid: 7ccad2299d39cd44eb6ec115bfe42f2a
   - enabled: 1
     path: Assets/_Scenes/Tutorial.unity
@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Tutorial3rd.unity
     guid: 495da7bbdc7026447b0edf5d989b2abd
+  - enabled: 1
+    path: Assets/_Scenes/Chapter1/ChapterOne_2.unity
+    guid: d2e0afc15cef6784286cf2638feeac49
   m_configObjects: {}

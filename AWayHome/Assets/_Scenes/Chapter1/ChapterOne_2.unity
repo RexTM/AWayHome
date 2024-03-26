@@ -516,11 +516,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Max, a spirited dog with a heart full of excitement, loved going to the
-    doggy park with his best friend and owner, Sarah. One sunny day, while playing
-    fetch at the doggy park, a mysterious figure snatched him away. Confused and
-    scared, Max found himself in an unfamiliar place. The once-happy doggy park was
-    replaced by uncertainty.
+  m_text: Determined to find Sarah, Max faced the unknown with courage. As he embarked
+    on this unexpected adventure, Max's loyalty and bravery would be put to the test.
+    Join Max on a journey filled with twists, turns, and the unbreakable bond between
+    a dog and his owner.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -548,8 +547,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46
-  m_fontSizeBase: 46
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1101,7 +1100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab5181551604ce45952ae11c4af0a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameLevel: ChapterOne_2
+  newGameLevel: CarlScene
   buttonName: Button
 --- !u!4 &1484227373
 Transform:
