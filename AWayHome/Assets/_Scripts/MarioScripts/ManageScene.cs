@@ -19,13 +19,27 @@ public class ManageScene : MonoBehaviour
         Debug.Log(gameSceneIndex);
     }
 
-    public void bubleGameTransition()
+    public void bubleGameTransition1()
     {
         gameSceneIndex = SceneManager.GetActiveScene().buildIndex;
         tempSceneIndex = gameSceneIndex;
         SceneManager.LoadScene(15);
     }
-
+    //temp
+    public void bubleGameTransition2()
+    {
+        gameSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        tempSceneIndex = gameSceneIndex;
+        SceneManager.LoadScene(16);
+    }
+    public void bubleGameTransition3()
+    {
+        gameSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        tempSceneIndex = gameSceneIndex;
+        SceneManager.LoadScene(17);
+       
+    }
+    //temp
     public void returnToStory()
     { 
         if (forceSceneSelection)
