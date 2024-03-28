@@ -11,6 +11,8 @@ public class ButtonUI : MonoBehaviour
     {
         SceneManager.LoadScene(newGameLevel);
         Debug.Log($"Button '{buttonName}' clicked!");
-        
+
+        //Button click sound
+        sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
     }
 }
