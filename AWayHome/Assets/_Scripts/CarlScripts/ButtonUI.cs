@@ -30,4 +30,14 @@ public class ButtonUI : MonoBehaviour
             sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
         }
     }
+
+    public void MainMenuWishBoneReset()
+    {
+        PlayerData.wishBones = 0;
+        SceneManager.LoadScene(newGameLevel);
+        Debug.Log($"Button '{buttonName}' clicked!");
+
+        //Button click sound
+        sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
+    }
 }

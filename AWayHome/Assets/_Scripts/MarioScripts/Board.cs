@@ -113,6 +113,7 @@ public class Board : MonoBehaviour
         if (allDots[column, row].GetComponent<Dots>().isMatched)
         {
             //Adding wishbones when there is a merge
+            
             PlayerData.wishBones = PlayerData.wishBones+1;
 
             //Destroying Pieces that have matched. 
