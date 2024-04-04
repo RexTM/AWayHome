@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 208658050}
   PauseButton: {fileID: 424956178}
---- !u!1 &580924018
+--- !u!1 &649935235
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,10 +364,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 580924019}
-  - component: {fileID: 580924022}
-  - component: {fileID: 580924021}
-  - component: {fileID: 580924020}
+  - component: {fileID: 649935236}
+  - component: {fileID: 649935239}
+  - component: {fileID: 649935238}
+  - component: {fileID: 649935237}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -375,28 +375,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &580924019
+--- !u!4 &649935236
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580924018}
+  m_GameObject: {fileID: 649935235}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 94, y: -14.905991, z: 0.1541153}
-  m_LocalScale: {x: 20.304148, y: 20.304148, z: 20.304148}
+  m_LocalPosition: {x: -240.804, y: -848.804, z: 0.456}
+  m_LocalScale: {x: -0.120425865, y: -0.120425865, z: -0.120425865}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1081484945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &580924020
+--- !u!135 &649935237
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580924018}
+  m_GameObject: {fileID: 649935235}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -411,13 +411,13 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &580924021
+--- !u!23 &649935238
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580924018}
+  m_GameObject: {fileID: 649935235}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -453,13 +453,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &580924022
+--- !u!33 &649935239
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580924018}
+  m_GameObject: {fileID: 649935235}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &695697752
 GameObject:
@@ -1044,7 +1044,7 @@ RectTransform:
   m_LocalScale: {x: 2.98499, y: 2.98499, z: 2.98499}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 580924019}
+  - {fileID: 649935236}
   m_Father: {fileID: 744858281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
