@@ -15,4 +15,19 @@ public class ButtonUI : MonoBehaviour
         //Button click sound
         sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
     }
+
+
+    public void UseWishbone()
+    {
+        if (PlayerData.wishBones >= 50)
+        {
+            PlayerData.wishBones -= 50;
+            Debug.Log(PlayerData.wishBones);
+            SceneManager.LoadScene(newGameLevel);
+            Debug.Log($"Button '{buttonName}' clicked!");
+
+            //Button click sound
+            sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
+        }
+    }
 }
