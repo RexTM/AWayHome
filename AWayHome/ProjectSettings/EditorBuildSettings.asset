@@ -72,13 +72,13 @@ EditorBuildSettings:
     path: Assets/_Scenes/PauseMenu.unity
     guid: 7ccad2299d39cd44eb6ec115bfe42f2a
   - enabled: 1
-    path: Assets/_Scenes/Tutorial.unity
+    path: Assets/_Scenes/Tutorial/Tutorial.unity
     guid: d4a341b453c48ba47b988979296eddc1
   - enabled: 1
-    path: Assets/_Scenes/Tutorial2nd.unity
+    path: Assets/_Scenes/Tutorial/Tutorial2nd.unity
     guid: fa351f9b3a3d3414db774f9973f276ad
   - enabled: 1
-    path: Assets/_Scenes/Tutorial3rd.unity
+    path: Assets/_Scenes/Tutorial/Tutorial3rd.unity
     guid: 495da7bbdc7026447b0edf5d989b2abd
   - enabled: 1
     path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo.unity
