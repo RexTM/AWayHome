@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Chapter1/ChapterOne.unity
     guid: a491e17c16211414e97227e42b078f30
   - enabled: 1
+    path: Assets/_Scenes/Chapter1/ChapterOne_2.unity
+    guid: d2e0afc15cef6784286cf2638feeac49
+  - enabled: 1
     path: Assets/_Scenes/Chapter1/CarlScene.unity
     guid: 587a9d58328a8704a9f0a914773c8cf3
   - enabled: 1
@@ -78,6 +81,69 @@ EditorBuildSettings:
     path: Assets/_Scenes/Tutorial3rd.unity
     guid: 495da7bbdc7026447b0edf5d989b2abd
   - enabled: 1
-    path: Assets/_Scenes/Chapter1/ChapterOne_2.unity
-    guid: d2e0afc15cef6784286cf2638feeac49
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo.unity
+    guid: 11bd3ee3151d85a4e8785328b0f0bfe5
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_2.unity
+    guid: bcd1c17892e5211489c532cf0100351a
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_RunSarah.unity
+    guid: ee97d0c00948fbb4f99d2fc79b0b663d
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Elevator.unity
+    guid: 243c2bbc114b8934183d754567897ca6
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Elevator2.unity
+    guid: 56479b9c88df4ea40bb33da80e1f84f9
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Elevator3.unity
+    guid: e474b609d2f17d942805535f1d1c1a74
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Elevator4.unity
+    guid: ac459b6e49eaa2740a72c414a2a5f809
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Window.unity
+    guid: 723dd9bd72d9af44fa79f6b5bbbf5ce2
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Pizza.unity
+    guid: f317b5416c5473b4c89b1f96fd79b2cc
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Pizza2.unity
+    guid: e84d47c99d8551442868e935fee3318a
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Pizza3.unity
+    guid: 82882608b8713134792e404b359a0a6e
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2Human/ChapterTwo_Pizza4.unity
+    guid: 293efe24a7fa9da448beebb326881295
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_City.unity
+    guid: 465eefa80a8fde74396f78b167101fa0
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_DogFriends.unity
+    guid: 58ae54c2c06d3744e99c01866cf94ccc
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_DogFriends2.unity
+    guid: 27ef75c74ac71a1489effbc73496fd4c
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_DogFriends3.unity
+    guid: 436116f6198eff9428c73a378a8cb2d3
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_DogFriends4.unity
+    guid: eed7ce487c4a44b46b84143677bbbc29
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_Find.unity
+    guid: 0bc9fc235bfd232438df0fb7c41da5f5
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_Stay.unity
+    guid: b873c482eab308b4889ffc4feb8c0add
+  - enabled: 1
+    path: Assets/_Scenes/Chapter2/Ch2/ChapterTwo_SearchClues.unity
+    guid: e4d9110cc0bfc784eb2d884c8de392b4
+  - enabled: 1
+    path: Assets/_Scenes/Chapter3/Chapter3_Mall.unity
+    guid: 1c9a67349c501e140a173ae5c4ba4ae3
+  - enabled: 1
+    path: Assets/_Scenes/Chapter3/Chapter3_Mall2.unity
+    guid: 17d15f3cd9427b24da1c61c600d08a7a
   m_configObjects: {}
