@@ -61,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d8860c604e787d34c9413e8974af98c9,
         type: 3}
       propertyPath: m_Name
-      value: 1
+      value: Blue
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d8860c604e787d34c9413e8974af98c9,
         type: 3}
@@ -108,6 +108,8 @@ MonoBehaviour:
   isMatched: 0
   swipeAngle: 0
   swipeResist: 1
+  isPower: 0
+  Power: {fileID: 6582494837353071288, guid: 502b0b7014e4e9645b7848376710bc16, type: 3}
 --- !u!65 &-5755754843647918995
 BoxCollider:
   m_ObjectHideFlags: 0

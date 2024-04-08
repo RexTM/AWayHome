@@ -24,6 +24,7 @@ public class Board : MonoBehaviour
     public GameObject[] dots;
     private BackgroundTile[,] allTiles;
     public GameObject[,] allDots;
+    public Dots currentDot;
     private FindMatches findMatches;
     private PlayerData playerData;
 
@@ -112,8 +113,13 @@ public class Board : MonoBehaviour
     {
         if (allDots[column, row].GetComponent<Dots>().isMatched)
         {
+            //checking how many pieces are matched
+            if (findMatches.currentMatches.Count == 4 || findMatches.currentMatches.Count == 7)
+            {
+                findMatches.CheckBombs();
+            }
+
             //Adding wishbones when there is a merge
-            
             PlayerData.wishBones = PlayerData.wishBones+1;
 
             //Destroying Pieces that have matched. 
@@ -209,7 +215,9 @@ public class Board : MonoBehaviour
             yield return new WaitForSeconds(.08f);
             DestroyMatches();
         }
-        yield return new WaitForSeconds(.08f);
+        findMatches.currentMatches.Clear();
+        currentDot = null;
+        yield return new WaitForSeconds(1f);
         currentState = GameState.MOVE;
     }
 

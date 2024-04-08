@@ -108,6 +108,8 @@ MonoBehaviour:
   isMatched: 0
   swipeAngle: 0
   swipeResist: 1
+  isPower: 0
+  Power: {fileID: 6582494837353071288, guid: 502b0b7014e4e9645b7848376710bc16, type: 3}
 --- !u!65 &6189490120179763489
 BoxCollider:
   m_ObjectHideFlags: 0
