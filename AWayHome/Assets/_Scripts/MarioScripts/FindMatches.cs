@@ -6,6 +6,7 @@ using System.Linq;
 
 public class FindMatches : MonoBehaviour
 {
+    public GameObject addedTime;
     private TimerController timer;
     private Board board;
     public List<GameObject> currentMatches = new List<GameObject>();
@@ -21,6 +22,13 @@ public class FindMatches : MonoBehaviour
         StartCoroutine(FindAllMatchesCo());
     }
     
+    private IEnumerator TimeAdded()
+    {
+        addedTime.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        addedTime.SetActive(false);
+    }
+
     private IEnumerator FindAllMatchesCo()
     {
         yield return new WaitForSeconds(1f);
@@ -139,6 +147,7 @@ public class FindMatches : MonoBehaviour
             if (board.currentDot.isMatched)
             {
                 //add time 
+                StartCoroutine(TimeAdded());
                 timer.timeRemaining += 10;
 
                 //unmatch the pieces
@@ -157,6 +166,7 @@ public class FindMatches : MonoBehaviour
                 if(otherDot.isMatched)
                 {
                     //add time
+                    StartCoroutine(TimeAdded());
                     timer.timeRemaining += 10;
 
                     //unmatch the pieces
