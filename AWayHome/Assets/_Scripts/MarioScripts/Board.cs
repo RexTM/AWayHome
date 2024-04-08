@@ -114,7 +114,7 @@ public class Board : MonoBehaviour
         if (allDots[column, row].GetComponent<Dots>().isMatched)
         {
             //checking how many pieces are matched
-            if (findMatches.currentMatches.Count == 4 || findMatches.currentMatches.Count == 7)
+            if (findMatches.currentMatches.Count == 4)
             {
                 findMatches.CheckBombs();
             }
