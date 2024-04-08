@@ -6,11 +6,13 @@ using System.Linq;
 
 public class FindMatches : MonoBehaviour
 {
+    private TimerController timer;
     private Board board;
     public List<GameObject> currentMatches = new List<GameObject>();
 
     private void Start()
     {
+        timer = FindObjectOfType<TimerController>();
         board = FindObjectOfType<Board>();
     }
 
@@ -136,6 +138,9 @@ public class FindMatches : MonoBehaviour
             //does the moved piece match?
             if (board.currentDot.isMatched)
             {
+                //add time 
+                timer.timeRemaining += 10;
+
                 //unmatch the pieces
                 board.currentDot.isMatched = false;
                 //make bomb
@@ -151,7 +156,11 @@ public class FindMatches : MonoBehaviour
                 Dots otherDot = board.currentDot.otherDot.GetComponent<Dots>();
                 if(otherDot.isMatched)
                 {
-                otherDot.isMatched = false;
+                    //add time
+                    timer.timeRemaining += 10;
+
+                    //unmatch the pieces
+                    otherDot.isMatched = false;
                 }
                 //make bomb
                 if (!otherDot.isPower)
