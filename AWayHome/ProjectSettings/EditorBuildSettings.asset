@@ -57,14 +57,20 @@ EditorBuildSettings:
     path: Assets/_Scenes/elmerScene.unity
     guid: 35f6b0251b239a44cb1b0b9403df1ea5
   - enabled: 1
-    path: Assets/_Scenes/Bubble.unity
+    path: Assets/_Scenes/BUBBLE/Bubble.unity
     guid: b28bd7871c652ec40aeaa6007c72c72c
   - enabled: 1
-    path: Assets/_Scenes/Bubble1.unity
+    path: Assets/_Scenes/BUBBLE/Bubble1.unity
     guid: 408bb28a2a1d97845936cd7b40aa4857
   - enabled: 1
-    path: Assets/_Scenes/Bubble2.unity
+    path: Assets/_Scenes/BUBBLE/Bubble2.unity
     guid: dcd80a68988d69d4d880cc34c6a8c5f8
+  - enabled: 1
+    path: Assets/_Scenes/BUBBLE/Bubble3.unity
+    guid: 1171de66643241e4fa958574436441df
+  - enabled: 1
+    path: Assets/_Scenes/BUBBLE/Bubble4.unity
+    guid: 58270cc24491d5448a4eb19b7c5a03b8
   - enabled: 1
     path: Assets/_Scenes/GameOver.unity
     guid: 5eaee40d8378c994d89b75232ac3b432
