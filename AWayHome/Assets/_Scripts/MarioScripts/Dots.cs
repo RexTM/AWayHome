@@ -47,7 +47,7 @@ public class Dots : MonoBehaviour
         //previousColumn = column;
     }
 
-
+    /*
     private void OnMouseOver()
     {
         if(Input.GetMouseButtonDown(1))
@@ -58,6 +58,7 @@ public class Dots : MonoBehaviour
             
         }
     }
+    */
 
     // Update is called once per frame
     void FixedUpdate()
