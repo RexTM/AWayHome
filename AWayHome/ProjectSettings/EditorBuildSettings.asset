@@ -185,4 +185,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Chapter3/Chapter3_School.unity
     guid: 91e2b634b32157845bdd3149d441b68f
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_Sewers.unity
+    guid: 2b48a3fcb580d404c8b1e9cda23aa1ee
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_Sewers2.unity
+    guid: 28f5b788d1587734599731f3c6535e3c
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_Rats.unity
+    guid: 5422137ccab01644eaf0e44bc2ef7684
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_Tunnels.unity
+    guid: 8cb5d222258fcca4c996c9510bf2268d
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_Tunnels2.unity
+    guid: 09a881107954e584da0c2cbe68d6ef3f
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_SteakBowl.unity
+    guid: 0cb2ced898b9e434280d1d16d47c3dcb
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_NoSteakBowl.unity
+    guid: e379bab2058937b4ea5656e715f8cb2c
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_NoSteakBowl2.unity
+    guid: 86fe26741e0a7c645b0c5ac92a0e4509
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_Barked.unity
+    guid: c082ac8a06952e64689b8bb03f11e874
+  - enabled: 1
+    path: Assets/_Scenes/Chapter4/Chapter4_Barked2.unity
+    guid: eb0cf4d8e9a13ea49afb952d4b945419
   m_configObjects: {}
