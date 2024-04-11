@@ -221,4 +221,91 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Chapter4/Chapter4_Barked2.unity
     guid: eb0cf4d8e9a13ea49afb952d4b945419
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_School.unity
+    guid: a936c0507e1c78e41b584735f80017d2
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_School2.unity
+    guid: e72cd885fe98da1488239dd4b62cd770
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_School3.unity
+    guid: 879d2b50a2e525e45a0e2c7108761917
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Left.unity
+    guid: c4425c198207a184e92f209a3ac30d9f
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Right.unity
+    guid: 2e720ea79ea5a584ca57e2fd5d4e6b68
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Right2.unity
+    guid: 5ce518a36c90b6d4a8f634c5f8687855
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Right3.unity
+    guid: e10c5e853d475c246a084d631924d774
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Nervous.unity
+    guid: 7a8921eaeb9315948bb0cc626baeeeb3
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Quiet.unity
+    guid: d4b22b05908b19449b368b3e9002ac60
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_DiningHall.unity
+    guid: ccd40c060a0a49445a1d14fce9282fcd
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_DiningHall2.unity
+    guid: 5242f574d5e6d934c858c5a34f93f9a2
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_DiningHall3.unity
+    guid: 542a45166b352fa44af52575a32ad0f5
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Steak.unity
+    guid: 02172e9a1d1e4544891eb92c671fc7af
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Steak2.unity
+    guid: fb1d6017bbd2cdc449e445f86ecf05ce
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_LeaveSteak.unity
+    guid: 1fe404e5f5313b741a34c8591dadd323
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_LeaveSteak2.unity
+    guid: c3e22268dc2d47e479c8d8a3b1611554
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_LeaveSteak3.unity
+    guid: cbac46097d67e6c4aa962b0ea18df7d8
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_LeaveSteak4.unity
+    guid: 013980e3e6f477241851eb6de7886a37
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Mature.unity
+    guid: 75688a3d8a81181498822ae5a120ddc7
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Mature2.unity
+    guid: fe6aed73765f7c84184ecabbd2ddde56
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Mature3.unity
+    guid: cf59313ff3a64fd4e9d7044229e152ae
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Mature4.unity
+    guid: abbf441d318601e40a33fb48b113de2a
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Bark.unity
+    guid: 46de1f4a89f313b4496da780e6b9d4a2
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Tickle.unity
+    guid: a55ab2132483b9644a4317936f3020ce
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Nibble.unity
+    guid: e7d7af746d80c934795aa5bbbe38c2e2
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Julie.unity
+    guid: 004fc396c01591f4eb9e247c4ee830dc
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Julie2.unity
+    guid: 282aa6920de215442bb0f1479eb500d5
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Julie3.unity
+    guid: c3171a68d984b344a9a08e9634887b5b
+  - enabled: 1
+    path: Assets/_Scenes/Chapter5/Chapter5_Julie4.unity
+    guid: f9d8ac9b627f3fa4aa3f14c9dffe864d
   m_configObjects: {}
