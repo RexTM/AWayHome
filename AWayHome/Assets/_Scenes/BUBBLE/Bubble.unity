@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18328777, g: 0.22702356, b: 0.29526386, a: 1}
+  m_IndirectSpecularColor: {r: 0.18314543, g: 0.22880939, b: 0.30657142, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2915,13 +2915,13 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2954,7 +2954,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2973,13 +2973,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638621782}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20041518, y: -0, z: -0, w: 0.97971106}
+  m_LocalRotation: {x: 0.31868634, y: 0, z: 0, w: 0.94786024}
   m_LocalPosition: {x: 0, y: 3, z: -8.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 23.122, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 37.167, y: 0, z: 0}
 --- !u!1 &1668157344
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,7 +3364,7 @@ MonoBehaviour:
   width: 5
   height: 7
   offSet: 20
-  tilePrefab: {fileID: 919132149155446097, guid: 36abca8ee03fe4542a1ad657bac2313f,
+  tilePrefab: {fileID: 4781066871237397788, guid: 2100622d2178ba246be8ee6b34c1b21e,
     type: 3}
   dots:
   - {fileID: 3663148862085090213, guid: f074b9c33e017a74e886aaba2b720cd1, type: 3}

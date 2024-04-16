@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Green
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cef80fded8b39ce46b13f14b7e614c8b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -106,6 +111,7 @@ MonoBehaviour:
   targetX: 0
   targetY: 0
   isMatched: 0
+  otherDot: {fileID: 0}
   swipeAngle: 0
   swipeResist: 1
   isPower: 0
