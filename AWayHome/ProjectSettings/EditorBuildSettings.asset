@@ -311,4 +311,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Chapter6/Chapter6_AnimalControl.unity
     guid: 0078676759ac7634a8a3d7559a8cf224
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_RoadTrip.unity
+    guid: d2caec3e6f7e6454595968dee7adbed6
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_RoadTrip2.unity
+    guid: 095b41ecbdf36454b8690ec14e41ec0e
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_RoadTrip3.unity
+    guid: a172161d3ee766b48b71ae06efbda252
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_RoadTrip4.unity
+    guid: 1ed39080e2be0494096b268289cf0a22
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_Scratch.unity
+    guid: ee0ee54ab6aa1b046b6ff9e5385ad24c
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_Scratch2.unity
+    guid: eb680414d5907894f93ed999ac67a655
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_Scratch3.unity
+    guid: 7bfd6f4f809df1c4989bcfdbf04e0720
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_Scratch4.unity
+    guid: 0ec9369945127e74eb58428df6cbc964
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_Lick.unity
+    guid: 262bc3f3135a9c84a832c594ffeb0a71
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_Lick2.unity
+    guid: e535780ae172ac64ab40b3b9e43b2d69
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_Lick3.unity
+    guid: 6c6fc6950298a03479ff0e88d44f78c7
+  - enabled: 1
+    path: Assets/_Scenes/Chapter6/Chapter6_RipPic.unity
+    guid: be911a556e25ec84e9890d0bf1687197
   m_configObjects: {}
