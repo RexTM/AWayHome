@@ -13,6 +13,9 @@ public class ManageScene : MonoBehaviour
     [Header("(Use Index from build order)")]
     public int forcedScene = 0;
 
+    [Header("Checkpoints")]
+    public int checkpointScene = 0;
+
     private void Start()
     {
         gameSceneIndex = PlayerPrefs.GetInt("LastGameplayScene", 0);
