@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab5181551604ce45952ae11c4af0a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameLevel: Chapter4_Barked2
+  newGameLevel: Chapter5_Right3
   buttonName: Button
 --- !u!4 &945586300
 Transform:

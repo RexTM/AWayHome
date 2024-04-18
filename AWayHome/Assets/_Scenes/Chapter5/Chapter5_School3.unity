@@ -746,6 +746,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431903771}
   m_CullTransparentMesh: 1
+--- !u!1 &618355436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 618355438}
+  - component: {fileID: 618355437}
+  m_Layer: 0
+  m_Name: ButtonControllerNext (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &618355437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618355436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab5181551604ce45952ae11c4af0a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGameLevel: Chapter5_DiningHall
+  buttonName: Button
+--- !u!4 &618355438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618355436}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.54266, y: 314.7013, z: 1.3617253}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &697669817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,7 +1195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab5181551604ce45952ae11c4af0a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameLevel: Chapter4_Barked2
+  newGameLevel: Chapter5_Left
   buttonName: Button
 --- !u!4 &945586300
 Transform:
@@ -1708,6 +1754,52 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &1313755379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1313755381}
+  - component: {fileID: 1313755380}
+  m_Layer: 0
+  m_Name: ButtonControllerNext (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1313755380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313755379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab5181551604ce45952ae11c4af0a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGameLevel: Chapter5_Right
+  buttonName: Button
+--- !u!4 &1313755381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313755379}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.54266, y: 314.7013, z: 1.3617253}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1384724561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,7 +1883,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 945586299}
+      - m_Target: {fileID: 1313755380}
         m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -2382,7 +2474,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 945586299}
+      - m_Target: {fileID: 618355437}
         m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -2632,5 +2724,7 @@ SceneRoots:
   - {fileID: 1691440985}
   - {fileID: 1143917935}
   - {fileID: 945586300}
+  - {fileID: 1313755381}
+  - {fileID: 618355438}
   - {fileID: 273937245}
   - {fileID: 307007913}
