@@ -356,4 +356,58 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Chapter6/Chapter6_RipPic.unity
     guid: be911a556e25ec84e9890d0bf1687197
+  - enabled: 1
+    path: Assets/_Scenes/BUBBLE/Bubble7.unity
+    guid: b61c55f19fc66454b8989f3f4afd13be
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Captured.unity
+    guid: a7b45adab11af5f4381d231e06163656
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Captured2.unity
+    guid: ccb78b724c07cb842bd0a678fc6cde2f
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Captured3.unity
+    guid: 8fda71d83382f084b8d0d7bff426d149
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Captured4.unity
+    guid: fbc9ebe16d680ab49b8b999be9c940c7
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Sleep.unity
+    guid: b8bb05d3af6ec4047a9d3ca76fd4de64
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Sleep2.unity
+    guid: fea5e3108b1b86140852275e1e5f82e8
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Sleep3.unity
+    guid: 1278eb8cbf8c14e449a9e86a5679f2c4
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_SitWait.unity
+    guid: 935ba3247dda41d49b9d9760d659dd89
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Howl.unity
+    guid: 8d704dfe26bf93747a918bd2298760c5
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Howl2.unity
+    guid: 4f252191338ae6d42895a6e391969dbe
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Howl3.unity
+    guid: 882740942b81dc44fb786094ac4c1589
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Howl4.unity
+    guid: 0ed5c9ddd44af3a4bacc536e93b11571
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Midnight.unity
+    guid: 9ca9d8430c05f1843ad24836015b119b
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Midnight2.unity
+    guid: 3570439417fab6d4089bc214abcecdbf
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Midnight3.unity
+    guid: 126af7bc006804c41af7e2fc3bde5d48
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Midnight4.unity
+    guid: d39ce798965e957448f1b78623f4acd2
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7/Chapter7_Midnight5.unity
+    guid: 378865c30b89a024e952a49087640f8b
   m_configObjects: {}

@@ -268,7 +268,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5cb53f5f683bfe348bca95bba2ae1c5d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.253
+      value: -2.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5cb53f5f683bfe348bca95bba2ae1c5d,
         type: 3}
@@ -666,7 +666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CH.6
+  m_text: CH.7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 820924467}
   - component: {fileID: 820924466}
   m_Layer: 5
-  m_Name: Chapter6_AnimalControl
+  m_Name: Chapter7_Midnight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -820,9 +820,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You thought it was Sarah but boy we're you wrong. It turned out to be animal
-    control! The last thing you remember is 2 men throwing a net on you and injecting
-    you with some tranquilizer to put you to sleep.
+  m_text: '"Sorry boss, Feta decided it would be fun to play hooky with a random
+    cat we saw on the street", said Brie. "Sorry boss", said Feta as she tried to
+    hide her smirk.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -850,8 +850,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 44
+  m_fontSizeBase: 44
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 945586300}
   - component: {fileID: 945586299}
   m_Layer: 0
-  m_Name: ButtonControllerBUBBLE7
+  m_Name: ButtonControllerNext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab5181551604ce45952ae11c4af0a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameLevel: Bubble7
+  newGameLevel: Chapter7_Midnight4
   buttonName: Button
 --- !u!4 &945586300
 Transform:
@@ -1346,14 +1346,14 @@ RectTransform:
   m_GameObject: {fileID: 1202752848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8393712, y: 1.397921, z: 1.8393712}
+  m_LocalScale: {x: 1.7330062, y: 1.3170838, z: 1.7330062}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1677132515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.1, y: -0.6}
+  m_AnchoredPosition: {x: -1.0999985, y: -1.1}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202752850
@@ -1790,7 +1790,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 168, y: -466}
+  m_AnchoredPosition: {x: 168, y: -507}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677132516
