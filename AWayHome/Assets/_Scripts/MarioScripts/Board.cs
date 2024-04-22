@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.UI;
+using UnityEngine.VFX;
 
 public enum GameState
 {
@@ -27,6 +28,10 @@ public class Board : MonoBehaviour
     public Dots currentDot;
     private FindMatches findMatches;
     private PlayerData playerData;
+
+    //vfxs
+    [SerializeField] VisualEffect _explodeEffect;
+    [SerializeField] VisualEffect _burstPrefab;
 
     private void Start()
     { 
@@ -124,9 +129,32 @@ public class Board : MonoBehaviour
 
             //Destroying Pieces that have matched. 
             findMatches.currentMatches.Remove(allDots[column, row]);
+            //VFXs display after pieces match
+            SpawnParticle();
             Destroy(allDots[column, row]);
             allDots[column, row] = null;
+
+            
         }
+
+        void SpawnParticle()
+        {
+            //instantiate
+            VisualEffect newBustEffect = Instantiate(_burstPrefab, allDots[column, row].transform.position, Quaternion.identity);
+            //play
+            newBustEffect.Play();
+            //destroy
+            Destroy(newBustEffect.gameObject, 1.5f);
+        }
+        
+    }
+
+    
+
+    //plays particle effect
+    void PlayParticle()
+    {
+        _explodeEffect.Play();
     }
 
     public void DestroyMatches()

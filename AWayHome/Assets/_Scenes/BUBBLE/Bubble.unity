@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18314543, g: 0.22880939, b: 0.30657142, a: 1}
+  m_IndirectSpecularColor: {r: 0.18314579, g: 0.22880962, b: 0.30657217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3374,6 +3374,10 @@ MonoBehaviour:
   - {fileID: 1619407701181610741, guid: d131470c7b42dd546b5df4e7397b9104, type: 3}
   - {fileID: 1804157906604429601, guid: 51a4873de962ea54880bf3365995f064, type: 3}
   currentDot: {fileID: 0}
+  _explodeEffect: {fileID: 6873355430206046834, guid: 62064e14104bae0479288106268a954c,
+    type: 3}
+  _burstPrefab: {fileID: 6873355430206046834, guid: 62064e14104bae0479288106268a954c,
+    type: 3}
 --- !u!4 &1897537634
 Transform:
   m_ObjectHideFlags: 0
