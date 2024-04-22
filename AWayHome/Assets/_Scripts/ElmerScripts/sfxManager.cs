@@ -5,6 +5,8 @@ using UnityEngine;
 public class sfxManager : MonoBehaviour
 {
     public AudioSource Audio;
+    
+   
     public AudioClip Click;
     public AudioClip Merging;
     
