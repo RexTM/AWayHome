@@ -131,6 +131,8 @@ public class Board : MonoBehaviour
             findMatches.currentMatches.Remove(allDots[column, row]);
             //VFXs display after pieces match
             SpawnParticle();
+            //Button click sound
+            sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Merging);
             Destroy(allDots[column, row]);
             allDots[column, row] = null;
 
