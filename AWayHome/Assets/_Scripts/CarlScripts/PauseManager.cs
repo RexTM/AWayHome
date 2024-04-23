@@ -8,6 +8,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     public GameObject PauseButton;
     private GameObject pauseMenuInstance;
+    public static int resumeSceneIndex;
 
     //private bool isPaused = false;
     private string previousScene; // Variable to store the previous scene name
@@ -32,6 +33,7 @@ public class PauseManager : MonoBehaviour
 
     public void TogglePause()
     {
+        resumeSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene("pauseMenu");
 
         if(pauseMenuInstance != null)
@@ -66,6 +68,6 @@ public class PauseManager : MonoBehaviour
     {
         Time.timeScale = 1;
         HidePauseMenu();
-        SceneManager.LoadScene(previousScene);
+        SceneManager.LoadScene(resumeSceneIndex);
     }
 }

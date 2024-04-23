@@ -23,28 +23,4 @@ public class UIManager : PlayerData
         WishBones.text = "Wish Bones: " + wishBones;
     }
 
-    /*
-    private void OnGUI()
-    {
-        /*
-        if(GUI.Button(new Rect(150, 200, 100, 50), "Add WishBone"))
-        {
-            wishBones += 2;
-        }
-        */
-
-    /*
-        if(GUI.Button(new Rect(x, y, 100, 50), "Buy Choice"))
-        {
-            if(wishBones >= 5)
-            {
-                wishBones -= 5;
-            }
-            else
-            {
-                return;
-            }
-        }
-    }
-    */
 }

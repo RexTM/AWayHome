@@ -17,6 +17,15 @@ public class ButtonUI : MonoBehaviour
         sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
     }
 
+    public void ResumeScene()
+    {
+        SceneManager.LoadScene(PauseManager.resumeSceneIndex);
+        Debug.Log($"Button '{buttonName}' clicked!");
+
+        //Button click sound
+        sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
+    }
+
     public void GetCheckPointScene()
     {
         checkPointSceneIndex = SceneManager.GetActiveScene().buildIndex;
