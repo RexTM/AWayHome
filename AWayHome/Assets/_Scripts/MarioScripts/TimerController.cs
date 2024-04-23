@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 public class TimerController : MonoBehaviour
 {
     [Header("Difficulty Level")]
-    [Range(0, 3)]
+    [Range(0, 4)]
     public int difficulty = 0;
 
     [SerializeField]
@@ -66,6 +66,9 @@ public class TimerController : MonoBehaviour
                 break;
             case 3:
                 maxTime = 30f;
+                break;
+            case 4:
+                maxTime = 20f;
                 break;
             default:
                 break;

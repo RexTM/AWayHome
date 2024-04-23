@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18314579, g: 0.22880962, b: 0.30657217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18314543, g: 0.22880939, b: 0.30657142, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1845,7 +1845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d61ba887a19be4b834d0409d445969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  difficulty: 2
+  difficulty: 3
   restartButton: {fileID: 1570039120}
   TimeUp: {fileID: 1668157344}
   timerLinearImage: {fileID: 881910179}
