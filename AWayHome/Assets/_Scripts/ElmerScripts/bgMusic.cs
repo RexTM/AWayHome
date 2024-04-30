@@ -10,6 +10,13 @@ public class bgMusic : MonoBehaviour
 
     public AudioClip defaultMusicClip; 
     public AudioClip newMusicClip;    
+    public AudioClip sadBark;
+    public AudioClip howlBark;
+    public AudioClip multiBark;
+    private bool hasPlayedSadBark = false;
+    private bool hasPlayedHowlBark = false;
+    private bool hasPlayedMultiBark = false;
+
 
     private void Awake()
     {
@@ -48,6 +55,39 @@ public class bgMusic : MonoBehaviour
             // Play new music for scene 21
             audioSource.clip = newMusicClip;
             audioSource.Play();
+        }
+        else if (scene.buildIndex == 107 && sadBark != null && !hasPlayedSadBark)
+        {
+            // Play sadBark once for scene 107
+            audioSource.PlayOneShot(sadBark);
+            hasPlayedSadBark = true;
+        }
+        else if (scene.buildIndex == 117 && sadBark != null && !hasPlayedHowlBark)
+        {
+            // Play sadBark once for scene 117
+            audioSource.PlayOneShot(howlBark);
+            hasPlayedSadBark = true;
+        }
+        else if (scene.buildIndex == 127 && sadBark != null && !hasPlayedHowlBark)
+        {
+            // Play sadBark once for scene 127
+            audioSource.PlayOneShot(howlBark);
+            hasPlayedSadBark = true;
+        }
+        else if (scene.buildIndex == 4 && sadBark != null && !hasPlayedMultiBark)
+        {
+            audioSource.PlayOneShot(multiBark);
+            hasPlayedMultiBark = true;
+        }
+        else if (scene.buildIndex == 55 && sadBark != null && !hasPlayedMultiBark)
+        {
+            audioSource.PlayOneShot(multiBark);
+            hasPlayedMultiBark = true;
+        }
+        else if (scene.buildIndex == 94 && sadBark != null && !hasPlayedMultiBark)
+        {
+            audioSource.PlayOneShot(multiBark);
+            hasPlayedMultiBark = true;
         }
         else
         {

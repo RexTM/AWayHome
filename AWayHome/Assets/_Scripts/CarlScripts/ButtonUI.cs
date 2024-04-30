@@ -8,6 +8,10 @@ public class ButtonUI : MonoBehaviour
     [SerializeField] private string newGameLevel = "CarlScene";
     [SerializeField] private string buttonName;
     public static int checkPointSceneIndex;
+
+   
+
+   
     public void OnButtonClick()
     {
         SceneManager.LoadScene(newGameLevel);
@@ -16,6 +20,7 @@ public class ButtonUI : MonoBehaviour
         //Button click sound
         sfxManager.sfxInstance.Audio.PlayOneShot(sfxManager.sfxInstance.Click);
     }
+
 
     public void ResumeScene()
     {

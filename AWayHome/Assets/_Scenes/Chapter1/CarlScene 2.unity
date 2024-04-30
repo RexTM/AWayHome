@@ -981,6 +981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1165056501}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1165056503
 Transform:
   m_ObjectHideFlags: 0
