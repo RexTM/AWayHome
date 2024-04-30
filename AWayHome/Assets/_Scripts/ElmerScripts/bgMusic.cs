@@ -10,6 +10,7 @@ public class bgMusic : MonoBehaviour
 
     public AudioClip defaultMusicClip; 
     public AudioClip newMusicClip;    
+    public AudioClip cheersClip;    
     public AudioClip sadBark;
     public AudioClip howlBark;
     public AudioClip multiBark;
@@ -54,6 +55,12 @@ public class bgMusic : MonoBehaviour
         {
             // Play new music for scene 21
             audioSource.clip = newMusicClip;
+            audioSource.Play();
+        }
+        else if (scene.buildIndex == 163 && cheersClip != null)
+        {
+            // Play new music for scene 163
+            audioSource.clip = cheersClip;
             audioSource.Play();
         }
         else if (scene.buildIndex == 107 && sadBark != null && !hasPlayedSadBark)
