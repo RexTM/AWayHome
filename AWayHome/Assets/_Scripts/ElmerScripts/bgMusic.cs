@@ -14,9 +14,10 @@ public class bgMusic : MonoBehaviour
     public AudioClip sadBark;
     public AudioClip howlBark;
     public AudioClip multiBark;
-    private bool hasPlayedSadBark = false;
-    private bool hasPlayedHowlBark = false;
-    private bool hasPlayedMultiBark = false;
+    public AudioClip grunt;
+    public AudioClip laugh;
+    public AudioClip scream;
+
 
 
     private void Awake()
@@ -63,38 +64,58 @@ public class bgMusic : MonoBehaviour
             audioSource.clip = cheersClip;
             audioSource.Play();
         }
-        else if (scene.buildIndex == 107 && sadBark != null && !hasPlayedSadBark)
+        else if (scene.buildIndex == 107 )
         {
             // Play sadBark once for scene 107
             audioSource.PlayOneShot(sadBark);
-            hasPlayedSadBark = true;
+          
         }
-        else if (scene.buildIndex == 117 && sadBark != null && !hasPlayedHowlBark)
+        else if (scene.buildIndex == 117 )
         {
             // Play sadBark once for scene 117
             audioSource.PlayOneShot(howlBark);
-            hasPlayedSadBark = true;
+          
         }
-        else if (scene.buildIndex == 127 && sadBark != null && !hasPlayedHowlBark)
+        else if (scene.buildIndex == 127 )
         {
             // Play sadBark once for scene 127
             audioSource.PlayOneShot(howlBark);
-            hasPlayedSadBark = true;
+            
         }
-        else if (scene.buildIndex == 4 && sadBark != null && !hasPlayedMultiBark)
+        else if (scene.buildIndex == 4 )
         {
             audioSource.PlayOneShot(multiBark);
-            hasPlayedMultiBark = true;
+           
         }
-        else if (scene.buildIndex == 55 && sadBark != null && !hasPlayedMultiBark)
+        else if (scene.buildIndex == 55 )
         {
             audioSource.PlayOneShot(multiBark);
-            hasPlayedMultiBark = true;
+            
         }
-        else if (scene.buildIndex == 94 && sadBark != null && !hasPlayedMultiBark)
+        else if (scene.buildIndex == 94 )
         {
             audioSource.PlayOneShot(multiBark);
-            hasPlayedMultiBark = true;
+          
+        }
+        else if (scene.buildIndex == 34)
+        {
+            audioSource.PlayOneShot(grunt);
+            
+        }
+        else if (scene.buildIndex == 31)
+        {
+            audioSource.PlayOneShot(grunt);
+           
+        }
+        else if (scene.buildIndex == 12)
+        {
+            audioSource.PlayOneShot(laugh);
+            
+        }
+        else if (scene.buildIndex == 9)
+        {
+            audioSource.PlayOneShot(scream);
+            
         }
         else
         {

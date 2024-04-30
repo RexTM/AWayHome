@@ -360,6 +360,9 @@ MonoBehaviour:
   sadBark: {fileID: 8300000, guid: 522f278e4e85dc74eb8c6a82b2647e5a, type: 3}
   howlBark: {fileID: 8300000, guid: 8a1d1825edb1df84688e8662f51be486, type: 3}
   multiBark: {fileID: 8300000, guid: 96ea0f225635eff4780f1ab08193dd98, type: 3}
+  grunt: {fileID: 8300000, guid: 1384c8282e332fd42b08863150860e29, type: 3}
+  laugh: {fileID: 8300000, guid: b769aa0bfe0844d48a25a30d64abf0ae, type: 3}
+  scream: {fileID: 8300000, guid: 57d932eaa92b44e4a990e47e18e104bf, type: 3}
 --- !u!82 &240929695
 AudioSource:
   m_ObjectHideFlags: 0
