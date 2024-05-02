@@ -500,4 +500,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Chapter9/Chapter9_Sarah.unity
     guid: 3d92070557ecea646a8fb0b524d6da56
+  - enabled: 1
+    path: Assets/_Scenes/TradeShop.unity
+    guid: 0afb2ba08a55ee04495e05d163a11530
   m_configObjects: {}
