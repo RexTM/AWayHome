@@ -821,12 +821,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You cautiously wag your tail and the terrier responds back by also wagging
-    its tail. After a few sniffs and playful barks, he introduces himself as Terri,
+  m_text: ' After a few sniffs and playful barks, he introduces himself as Terri,
     the unofficial official dog mayor of the streets. Terri, with his street smarts,
     offers to take you under his paw. You join a pack of strays united in the quest
-    to survive the ghetto streets. They share their stories and teach you the ways
-    of the street, all while helping you look for any sign of Sarah.
+    to survive the ghetto streets. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -2054,6 +2052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

@@ -964,8 +964,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'You don''t like veggies but you do like a juicy steak. Most of the food
-    here is veggies, however, you do see a steak marinating on a cast iron skillet
-    on top of the counter. Do you:'
+    here is veggies, however, you do see a steak marinating on a skillet. Do you:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

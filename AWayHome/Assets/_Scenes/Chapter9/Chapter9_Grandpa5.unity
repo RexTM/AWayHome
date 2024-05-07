@@ -820,11 +820,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You passed by multiple rooms before stopping right in your tracks. You
-    see a door blocking your way and begin to whine. "ICU" reads the old man as he
-    stops with you. "I guess this is where we part ways buddy", says the old man
-    as he cracks open the door for you. You take one more sniff just to be sure before
-    running towards her. You finally found her!!!!
+  m_text: You pass multiple rooms and see a door blocking your way. "ICU" reads the
+    old man. "I guess this is where we part ways buddy", says the man as he cracks
+    open the door for you. You take one more sniff before running towards her. You
+    finally found her!!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

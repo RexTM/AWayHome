@@ -741,7 +741,7 @@ MonoBehaviour:
   m_text: "You couldn\u2019t help it and decided to sniff and eat the pizza. As you
     are eating you see the previously sleeping man stare at you in confusion. You
     hear him say why is there a random dog in my place? He rapidly gets up and kicks
-    you out of the apartment. You take the stairs and find yourself free in the city. "
+    you out of the apartment. You"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -1476,6 +1476,8 @@ MonoBehaviour:
   howlBark: {fileID: 8300000, guid: 8a1d1825edb1df84688e8662f51be486, type: 3}
   multiBark: {fileID: 8300000, guid: 96ea0f225635eff4780f1ab08193dd98, type: 3}
   grunt: {fileID: 8300000, guid: 1384c8282e332fd42b08863150860e29, type: 3}
+  laugh: {fileID: 0}
+  scream: {fileID: 0}
 --- !u!82 &1236042868
 AudioSource:
   m_ObjectHideFlags: 0

@@ -920,11 +920,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The city is a labyrinth of smells, from the tantalizing aroma of street
-    food to the stench of exhaust fumes. Your human avoids all the smells and keeps
-    walking. As you walk, a scrappy terrier with a knowing look in his eyes approaches
-    you. Your human yells at the terrier before it can say anything. You walk for
-    a little longer until you arrive at a very tall building. You and your human
+  m_text: The city is a labyrinth of smells, as you walk, a scrappy terrier with
+    approaches you. Your human yells at the terrier before it can say anything. You
+    walk for a little longer until you arrive at a  tall building. You and your human
     take the elevator to the 15th floor.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
@@ -1889,6 +1887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

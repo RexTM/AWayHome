@@ -365,6 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 221369579}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &221369581
 Transform:
   m_ObjectHideFlags: 0
@@ -834,10 +835,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You successfully thread your leash around the volunteer's feet and wait
-    until they begin to move. As they tried to take a step, they rapidly tripped
-    and let go of you. You chew the leash rapidly and become free. You make a run
-    towards the city with no hesitation.
+  m_text: You successfully thread your leash around the volunteer's feet and they
+    rapidly tripped and let go of you. You chew the leash  and become free. You make
+    a run towards the city with no hesitation.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

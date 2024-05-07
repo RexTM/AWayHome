@@ -880,11 +880,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The world around you is a blur of scents and sounds, but none of them belong
-    to the dog park where you last saw Sarah. Panic sets in as you realize you're
-    in a cold, unfamiliar garage, far from the comforting presence of your owner.
-    You can barely make out the sound of footsteps and distant chatter beyond the
-    door. It's time to make a decision.
+  m_text: The world around you is a blur of scents and sounds. Panic sets in as you
+    realize you're in a cold, unfamiliar garage, far from the comforting presence
+    of your owner. You can barely make out the sound of footsteps and distant chatter
+    beyond the door. It's time to make a decision.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -1241,6 +1240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1162860312}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1162860314
 Transform:
   m_ObjectHideFlags: 0

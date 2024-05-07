@@ -904,8 +904,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: You instantly get caught by security and immediately taken out of the school.
-    Now you're back in the streets and this time you have no lead on where to go.
-    You decide to walk down the street. As you walk, you see a white van stop ahead
+    Now you're back in the streets.  As you walk, you see a white van stop ahead
     of you and instantly reverse.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}

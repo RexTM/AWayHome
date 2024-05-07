@@ -1053,10 +1053,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Out of nowhere, rain begins pouring and you hear Julie begin to cry as
-    she looks at a picture of a man on her dashboard. You look at her and she is
-    crying as she sings a sad song. Her mascara is everywhere on her eyebags and
-    all you hear is "Take me back bae" as she grabs her energy drink and chugs it
-    in one go, only to go back to crying right after. Will you:'
+    she looks at a picture of a man. Her mascara is everywhere on and all you hear
+    is "Take me back bae" as she grabs her energy drink and chugs it in one go, only
+    to go back to crying right after. Will you:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

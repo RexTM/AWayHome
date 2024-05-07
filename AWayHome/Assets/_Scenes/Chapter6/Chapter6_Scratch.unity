@@ -601,10 +601,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You don't care for Julie's wasted time with her man and so you begin to
-    scratch the passenger window. She stops crying and yells at you, "Shut up dumb
-    dog can't you see I'm busy?". Yeah busy wasting your time with trash, you think
-    to yourself. You continue scratching.
+  m_text: You don't care for Julie's wasted time with her man and  begin to scratch
+    the passenger window. She stops crying and yells at you, "Shut up dumb dog can't
+    you see I'm busy?". Yeah busy wasting your time with trash, you think to yourself.
+    You continue scratching.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -1881,6 +1881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

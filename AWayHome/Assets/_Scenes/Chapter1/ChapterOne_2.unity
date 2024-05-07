@@ -437,6 +437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 619721733}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &619721735
 Transform:
   m_ObjectHideFlags: 0
@@ -661,10 +662,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Determined to find Sarah, Max faced the unknown with courage. As he embarked
-    on this unexpected adventure, Max's loyalty and bravery would be put to the test.
-    Join Max on a journey filled with twists, turns, and the unbreakable bond between
-    a dog and his owner.
+  m_text: Determined to find Sarah, Max  embarked on this unexpected adventure, Max's
+    loyalty and bravery would be put to the test. Join Max on a journey filled with
+    twists, turns, and the unbreakable bond between a dog and his owner.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

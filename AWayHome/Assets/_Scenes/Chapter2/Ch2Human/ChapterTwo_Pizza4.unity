@@ -889,10 +889,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wait. That's it. The ball smells like her, you say to yourself. You take
-    your ball with you to help you along the way. You sniff the ball real good and
-    point your snout to the sky. You barely catch a similar scent to Sarah before
-    it fades. You head in that direction. The direction where the mall is.
+  m_text: Wait. That's it. The ball smells like her. You take your ball with you
+    to help you along the way. You sniff the ball and catch a similar scent to Sarah's.
+    You head in that direction. The direction where the mall is.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -1834,6 +1833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

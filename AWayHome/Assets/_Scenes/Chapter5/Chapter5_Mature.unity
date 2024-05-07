@@ -687,9 +687,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You decide to grow up and start tasting the vegetables. Why didn't I eat
     this sooner?! You tell yourself as you realize how good vegetables can be. You
-    jump from being too happy and start devouring everything. You feel happy and
-    wag your tail. You haven't ate good in a minute. but it's all worth it. You enjoy
-    your meal.
+    feel happy and wag your tail. You haven't ate good in a minute. but it's all
+    worth it.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

@@ -601,10 +601,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You decide to sit and wait. Others around you still look sad, almost as
-    if their spirit was taken from them long ago. They won't be able to escape if
-    they keep acting like that! You say to the dog next to you. "Yeah, news flash
-    buddy not everyone is a survivor out here", he says as he stretches.
+  m_text: You decide to sit and wait. Others around you still look sad as heir spirit
+    were taken from them long ago. They won't be able to escape if they keep acting
+    like that! You say to the dog next to you. "Yeah, news flash buddy not everyone
+    is a survivor", he says as he stretches.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -2016,6 +2016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

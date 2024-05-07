@@ -718,6 +718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 444651691}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &444651693
 Transform:
   m_ObjectHideFlags: 0
@@ -971,10 +972,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You decided to become a stray and never looked for Sarah. You had many
-    adventures and fun. You lived many years alongside Terri and the pack but eventually
-    got run over by an ambulance not stopping for a red light. You closed your 1
-    remaining eye as there was no life in you left. '
+  m_text: 'You decided to become a stray and never looked for Sarah. You lived many
+    years alongside Terri and the pack but eventually got run over by an ambulance
+    not stopping for a red light. You closed your 1 remaining eye as there was no
+    life in you left. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

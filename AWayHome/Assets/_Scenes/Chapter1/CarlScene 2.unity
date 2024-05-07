@@ -560,11 +560,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your bark echoes through the silent space, growing more desperate with
-    each cry. After what feels like an eternity, the door creaks open, and a stranger's
-    face peers in. Taken aback by your plight, they can't help but call for help,
-    leading to your rescue by local authorities. You're taken to a shelter where
-    the staff immediately falls in love with your bravery.
+  m_text: Your bark echoes  growing more desperate with each cry. After what feels
+    like an eternity, the door creaks open, and a stranger's face peeks in. They
+    call for help, leading to your rescue by local authorities. You're taken to a
+    shelter where the staff immediately falls in love with you.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

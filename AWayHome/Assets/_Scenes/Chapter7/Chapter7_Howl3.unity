@@ -601,10 +601,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You howl a melody you dedicated to the moon long ago, and you don''t stop.
-    You start to see others join in and eventually, everyone is howling with you.
-    You feel happy because you helped all these other dogs get their spirit back
-    and gave them a chance to survive. '
+  m_text: 'You howl a melody and you don''t stop. You hear others join in and eventually,
+    everyone is howling with you. You feel happy because you helped all these other
+    dogs get their spirit back. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -1932,6 +1931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

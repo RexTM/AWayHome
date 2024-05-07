@@ -1119,10 +1119,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Your human takes off your leash and lets you roam around. You see the
     human head to the kitchen to drink some funny-smelling clear liquid out of tiny
-    glasses. You also become worried as you see smoke coming out of his mouth. Is
-    he on fire? Why is he acting like that? As he walks past you, you hear him say
-    he loves blinkers. He quickly falls asleep in the kitchen and you begin to sniff
-    around. '
+    glasses.  He quickly falls asleep in the kitchen and you begin to sniff around. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

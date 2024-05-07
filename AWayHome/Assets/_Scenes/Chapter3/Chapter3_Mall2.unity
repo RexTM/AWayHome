@@ -1001,10 +1001,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The mall is a big place full of many scents. You keep looking everywhere
-    but there is no sign of Sarah. You sniff your ball again and find out her scent
-    is coming from both ends of the mall. Will you go to the East part or the West
-    part? '
+  m_text: 'The mall is a big place, you keep looking everywhere but no sign of Sarah.
+    You sniff your ball again and find out her scent is coming from both ends of
+    the mall. Will you go to the East part or the West part? '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -2368,6 +2367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

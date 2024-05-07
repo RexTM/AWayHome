@@ -778,11 +778,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: At the shelter, your adventure takes a heartwarming turn. The staff snaps
-    a photo of your hopeful eyes and posts it online, which quickly goes viral. People
-    from all over the city and beyond start sharing your story, eager to help in
-    the search. Meanwhile, you've become a bit of a local celebrity among the other
-    animals, regaling them with tales of your daring escape and the love you have
-    for Sarah.
+    a photo of your hopeful eyes and posts it online, which quickly goes viral. You
+    try sharing the tales of your daring escape and the love you have for Sarah.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -2134,6 +2131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1556815142}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1556815144
 Transform:
   m_ObjectHideFlags: 0

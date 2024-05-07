@@ -690,10 +690,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The shelter volunteers treat you like royalty, with extra treats and belly
-    rubs, as they work tirelessly to track down your owner. Days turned into weeks
-    and Sarah never came. It was up to you to find her and so, you plan to run away
-    on your daily walk. As you are being walked by a staff member you decide to:'
+  m_text: 'Days turned into weeks and Sarah never came. It was up to you to find
+    her and so, you plan to run away on your daily walk. As you are being walked
+    by a staff member you decide to:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,

@@ -564,8 +564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You always thought the west part of the mall was too long. You have been
-    following Sarah's trail for a while and the mall never seems to end. As you look
+  m_text: You always thought the west part of the mall was too long. As you look
     around, you see a daycare full of kids and somehow this is where the scent trail
     ends. You sneak inside.
   m_isRightToLeft: 0
@@ -1797,6 +1796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0

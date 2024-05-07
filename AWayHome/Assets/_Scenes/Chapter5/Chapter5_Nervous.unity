@@ -685,9 +685,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Being nervous and hiding is not easy. When you get nervous, Sarah always
-    says you get the toots. Since you ate the rats in the sewer, your tummy hurts
-    and you can''t help it. You tooted louder than a whoopie cushion! '
+  m_text: 'Being nervous makes you toot. Since you ate the rats in the sewer, your
+    tummy hurts and you can''t help it. You tooted louder than a whoopie cushion! '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 632057dee9579224c87fd68ca1986dce, type: 2}
   m_sharedMaterial: {fileID: -7392142043038617063, guid: 632057dee9579224c87fd68ca1986dce,
@@ -2015,6 +2014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio: {fileID: 1691440983}
   Click: {fileID: 8300000, guid: e7b6f3a5eb1a4ae49b534bb2d4c97133, type: 3}
+  Merging: {fileID: 0}
 --- !u!4 &1691440985
 Transform:
   m_ObjectHideFlags: 0
