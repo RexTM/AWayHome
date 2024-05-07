@@ -238,16 +238,16 @@ public class Board : MonoBehaviour
     private IEnumerator FillBoardCo()
     {
         RefillBoard();
-        yield return new WaitForSeconds(.08f);
+        yield return new WaitForSeconds(.08f); //0.8f
 
         while(MatchesOnBoard())
         {
-            yield return new WaitForSeconds(.08f);
+            yield return new WaitForSeconds(.08f); //0.8f
             DestroyMatches();
         }
         findMatches.currentMatches.Clear();
         currentDot = null;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.3f); //1f
         currentState = GameState.MOVE;
     }
 

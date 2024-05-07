@@ -39,26 +39,8 @@ public class Dots : MonoBehaviour
 
         board = FindObjectOfType<Board>();
         findMatches = FindObjectOfType<FindMatches>();
-        //targetX = (int)transform.position.x;
-        //targetY = (int)transform.position.y;
-        //row = targetY;
-        //column = targetX;
-        //previousRow = row;
-        //previousColumn = column;
+        
     }
-
-    /*
-    private void OnMouseOver()
-    {
-        if(Input.GetMouseButtonDown(1))
-        {
-            isPower = true;
-            GameObject glow = Instantiate(Power, transform.position, Quaternion.identity);
-            glow.transform.parent = this.transform;
-            
-        }
-    }
-    */
 
     // Update is called once per frame
     void FixedUpdate()
@@ -106,7 +88,7 @@ public class Dots : MonoBehaviour
 
     public IEnumerator CheckMoveCo()
     {
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.2f);//0.5f
         if (otherDot != null)
         {
             if (!isMatched && !otherDot.GetComponent<Dots>().isMatched)
@@ -115,7 +97,7 @@ public class Dots : MonoBehaviour
                 otherDot.GetComponent<Dots>().column = column;
                 row = previousRow;
                 column = previousColumn;
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(0.2f);//0.5f
                 board.currentDot = null;
                 board.currentState = GameState.MOVE;
             }
@@ -143,26 +125,6 @@ public class Dots : MonoBehaviour
             CalculateAngle();
         }
     }
-    
-
-    /*
-    private void OnTouchBegan(Vector2 touchPosition)
-    {
-        if (board.currentState == GameState.MOVE)
-        {
-            firstTouchPosition = Camera.main.ScreenToWorldPoint(touchPosition);
-        }
-    }
-
-    private void OnTouchEnded(Vector2 touchPosition)
-    {
-        if (board.currentState == GameState.MOVE)
-        {
-            finalTouchPosition = Camera.main.ScreenToWorldPoint(touchPosition);
-            CalculateAngle();
-        }
-    }
-    */
 
     void CalculateAngle()
     {

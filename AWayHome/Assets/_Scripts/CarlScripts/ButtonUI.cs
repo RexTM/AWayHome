@@ -42,9 +42,9 @@ public class ButtonUI : MonoBehaviour
 
     public void GetCheckPointSceneUseWishbone()
     {
-        if (PlayerData.wishBones >= 50)
+        if (PlayerData.wishBones >= 75)
         {
-            PlayerData.wishBones -= 50;
+            PlayerData.wishBones -= 75;
             checkPointSceneIndex = SceneManager.GetActiveScene().buildIndex;
             Debug.Log(PlayerData.wishBones);
             SceneManager.LoadScene(newGameLevel);
@@ -67,9 +67,9 @@ public class ButtonUI : MonoBehaviour
 
     public void UseWishbone()
     {
-        if (PlayerData.wishBones >= 50)
+        if (PlayerData.wishBones >= 75)
         {
-            PlayerData.wishBones -= 50;
+            PlayerData.wishBones -= 75;
             Debug.Log(PlayerData.wishBones);
             SceneManager.LoadScene(newGameLevel);
             Debug.Log($"Button '{buttonName}' clicked!");
