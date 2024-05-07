@@ -148,7 +148,7 @@ public class FindMatches : MonoBehaviour
             {
                 //add time 
                 StartCoroutine(TimeAdded());
-                timer.timeRemaining += 10;
+                timer.timeRemaining += 5;
 
                 //unmatch the pieces
                 board.currentDot.isMatched = false;
